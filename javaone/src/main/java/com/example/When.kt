@@ -9,7 +9,7 @@ package com.example
  * 强大到用来替换if...else if
  */
 
- class When {
+class When {
 
     fun whenTest() {
         val x = 10
@@ -33,22 +33,22 @@ fun main(args: Array<String>) {
     val w = When()
     w.whenTest()
 
-    var ii :Int =4
-    var list= ArrayList<Person>()
-    for (i in ii downTo 0){
-        var person=Person("name",i)
+    var ii: Int = 4
+    var list = ArrayList<Person>()
+    for (i in ii downTo 0) {
+        var person = Person("name", i)
         list.add(person)
 
     }
     println(list)
 
 
-
 }
 
-fun forList(){
-    val list=ArrayList<String>()
+fun forList() {
+    val list = ArrayList<String>()
 
-    for (i in list.indices)
+    for (i in list.indices) {
+    }
 
 }
